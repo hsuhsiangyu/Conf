@@ -5,6 +5,7 @@ source ~/.vim/vimrcs/filetypes.vim
 source ~/.vim/vimrcs/plugins_config.vim
 source ~/.vim/vimrcs/extended.vim
 
+hi comment ctermfg=6
 try
 source ~/.vim/my_configs.vim
 catch

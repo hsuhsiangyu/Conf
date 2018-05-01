@@ -1,11 +1,6 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Important:
-"       This requries that you install https://github.com/forfrt/vimrc !
-"
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 """"""""""""""""""""""""""""""
-" => Vundle Plugin
+" => Vundle Plugin   install command: 
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 """"""""""""""""""""""""""""""
 set nocompatible               " be iMproved
 filetype off                   " required!
@@ -16,7 +11,8 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 "
-" let Vundle manage Vundle, required
+" let Vundle manage Vundle, required   use BundleIsntall to install these
+" plugins
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vimwiki/vimwiki'
